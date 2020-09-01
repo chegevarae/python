@@ -15,7 +15,7 @@ def palindrome(word):
 
 
 while True:
-    word = input('Пожалуйста, введите слово для проверки: ').lower()
+    word = input('Пожалуйста, введите слово для проверки: ').lower().replace(' ', '')
     if word != '':
         print(palindrome(word))
     else:
